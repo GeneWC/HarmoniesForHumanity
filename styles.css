@@ -1,13 +1,50 @@
 body {
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Sitka Small', sans-serif;
     background-color: #f0f0f0;
     color: #333;
 }
 
+
 header {
     text-align: center;
-    background-color: #c0c0c0;
-    padding: 20px;
+    background-color: #333;
+    color: #fff;
+    padding: 0px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding-top: 0px;
+    margin-bottom: 20px;
+    margin-top: 0px;
+    font-family: "Sitka Small", serif;
+}
+nav ul li {
+    display: inline;
+    
+    }
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    padding-inline: 20px;
+}
+
+nav ul li a:hover {
+    background-color: #4d4d4d;
+    color: gray;
+}
+
+
+.space-below-carousel {
+    /* Styles for the content below the carousel */
+    margin-top: 20px; /* Adds 20px of space above the content */
+    font-family: "Sitka Small", serif;
+}
+
+.heading {
+    padding-bottom: 20px; /* Add 20 pixels of padding below the h1 text */
 }
 
 h1 {
