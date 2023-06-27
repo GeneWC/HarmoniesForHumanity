@@ -202,6 +202,16 @@ ul ol {
   margin-bottom: 0;
 }
 
+.carousel-resize {
+    width: 889px;
+    height: 500px;
+
+}
+
+.center-carousel {
+    display: flex;
+    justify-content: center;
+}
 dt {
   font-weight: 700;
 }
@@ -11257,7 +11267,7 @@ header.masthead .masthead-heading {
 
 section#contact {
   background-color: #212529;
-  background-image: url("../assets/img/map-image.png");
+
   background-repeat: no-repeat;
   background-position: center;
 }
